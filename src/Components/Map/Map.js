@@ -59,10 +59,7 @@ const Map = () => {
 
   return (
     <div style={{ position: "relative", height: "100vh" }}>
-      <Button
-        onClick={() => setDrawerOpen(true)}
-        style={{ position: "absolute", top: "10px", left: "10px", zIndex: 1000 }}
-      >
+      <Button onClick={() => setDrawerOpen(true)} className="custom-button">
         Open Form
       </Button>
       <div id="map" style={{ width: "100%", height: "100%" }} />
