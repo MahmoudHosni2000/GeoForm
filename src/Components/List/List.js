@@ -34,7 +34,7 @@ export default function List() {
 
   const handleShowClick = (lat, lon) => {
     const url = `/location?&lat=${lat}&lon=${lon}`;
-    window.open(url, '_blank');
+    window.open(url, '_self');
   };
 
   return (
